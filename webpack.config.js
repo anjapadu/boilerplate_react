@@ -22,7 +22,6 @@ module.exports = env => {
       chunkFilename: env.production ? "[name].[contenthash].chunk.js" : "[name].chunk.js"
       //chunkFilename: "chunkhash].js"
     },
-
     module: {
       rules: [
         {
